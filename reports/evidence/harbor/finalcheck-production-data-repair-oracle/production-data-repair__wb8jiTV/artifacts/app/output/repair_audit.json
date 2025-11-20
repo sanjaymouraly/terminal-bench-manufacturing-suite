@@ -1,0 +1,81 @@
+{
+  "batch_link_repairs": [
+    {
+      "from_batch_id": "BATCH-200",
+      "inspection_id": "QMS-100",
+      "repair_ref": "LINK-01",
+      "to_batch_id": "BATCH-100"
+    },
+    {
+      "from_batch_id": "BATCH-400",
+      "inspection_id": "QMS-600",
+      "repair_ref": "LINK-02",
+      "to_batch_id": "BATCH-600"
+    }
+  ],
+  "clock_normalization": [
+    {
+      "authority_rank": "3",
+      "offset_seconds": "0",
+      "source": "ERP"
+    },
+    {
+      "authority_rank": "2",
+      "offset_seconds": "300",
+      "source": "MES"
+    },
+    {
+      "authority_rank": "1",
+      "offset_seconds": "0",
+      "source": "PLC"
+    },
+    {
+      "authority_rank": "1",
+      "offset_seconds": "-120",
+      "source": "QMS"
+    }
+  ],
+  "dropped_duplicate_ids": [
+    "MES-003",
+    "MES-301"
+  ],
+  "invariants": {
+    "accounting_conserved": true,
+    "all_consumption_routed": true,
+    "failed_holds_preserved": true,
+    "unique_history_event_ids": true
+  },
+  "material_reallocations": [
+    {
+      "event_id": "MES-002",
+      "from_work_order_id": "WO-P-999",
+      "repair_ref": "ALLOC-01",
+      "to_work_order_id": "WO-P-100"
+    },
+    {
+      "event_id": "MES-302",
+      "from_work_order_id": "WO-P-998",
+      "repair_ref": "ALLOC-02",
+      "to_work_order_id": "WO-P-300"
+    }
+  ],
+  "quarantined_conflict_ids": [
+    "MES-005",
+    "MES-603"
+  ],
+  "schema_version": "1.0",
+  "state_conflicts_resolved": [
+    {
+      "discarded_event_id": "PLC-201",
+      "kept_event_id": "PLC-200",
+      "machine_id": "PACK-2",
+      "maintenance_id": "MNT-01"
+    },
+    {
+      "discarded_event_id": "PLC-401",
+      "kept_event_id": "PLC-400",
+      "machine_id": "PACK-1",
+      "maintenance_id": "MNT-02"
+    }
+  ]
+}

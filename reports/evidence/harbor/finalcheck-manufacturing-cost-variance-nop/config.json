@@ -1,0 +1,13 @@
+{
+    "job_name": "finalcheck-manufacturing-cost-variance-nop",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks\\manufacturing-cost-variance"
+        }
+    ]
+}

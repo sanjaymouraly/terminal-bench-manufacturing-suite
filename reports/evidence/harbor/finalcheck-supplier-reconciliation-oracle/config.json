@@ -1,0 +1,8 @@
+{
+    "job_name": "finalcheck-supplier-reconciliation-oracle",
+    "tasks": [
+        {
+            "path": "tasks\\supplier-reconciliation"
+        }
+    ]
+}

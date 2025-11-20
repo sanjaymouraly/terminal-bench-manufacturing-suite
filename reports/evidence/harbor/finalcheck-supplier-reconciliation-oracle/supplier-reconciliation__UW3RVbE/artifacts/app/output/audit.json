@@ -1,0 +1,127 @@
+{
+  "input_files": [
+    "contracts.csv",
+    "data_dictionary.md",
+    "erp_ap.csv",
+    "fixture-manifest.json",
+    "fx_rates.csv",
+    "goods_receipts.csv",
+    "inspections.csv",
+    "invoice_lines.csv",
+    "invoices.csv",
+    "po_lines.csv",
+    "supplier_aliases.csv",
+    "supplier_credits.csv",
+    "suppliers.csv",
+    "uom_conversions.csv"
+  ],
+  "invoice_decisions": [
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-ALPHA",
+      "duplicate_of": "",
+      "invoice_id": "INV-AL-001",
+      "receipt_supported_qty_base": "60"
+    },
+    {
+      "applied_credit_inr": "100.00",
+      "canonical_supplier_id": "S-ALPHA",
+      "duplicate_of": "",
+      "invoice_id": "INV-AL-002",
+      "receipt_supported_qty_base": "35"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-ALPHA",
+      "duplicate_of": "INV-AL-002",
+      "invoice_id": "INV-AL-003",
+      "receipt_supported_qty_base": "0"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-BETA",
+      "duplicate_of": "",
+      "invoice_id": "INV-BE-001",
+      "receipt_supported_qty_base": "190"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-DELTA",
+      "duplicate_of": "",
+      "invoice_id": "INV-DE-001",
+      "receipt_supported_qty_base": "150"
+    },
+    {
+      "applied_credit_inr": "4500.00",
+      "canonical_supplier_id": "S-EPSILON",
+      "duplicate_of": "",
+      "invoice_id": "INV-EP-001",
+      "receipt_supported_qty_base": "2000"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-EPSILON",
+      "duplicate_of": "",
+      "invoice_id": "INV-EP-002",
+      "receipt_supported_qty_base": "600"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-EPSILON",
+      "duplicate_of": "",
+      "invoice_id": "INV-EP-003",
+      "receipt_supported_qty_base": "1900"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-EPSILON",
+      "duplicate_of": "",
+      "invoice_id": "INV-EP-004",
+      "receipt_supported_qty_base": "0"
+    },
+    {
+      "applied_credit_inr": "5882.50",
+      "canonical_supplier_id": "S-GAMMA",
+      "duplicate_of": "",
+      "invoice_id": "INV-GA-001",
+      "receipt_supported_qty_base": "500"
+    },
+    {
+      "applied_credit_inr": "8345.90",
+      "canonical_supplier_id": "S-ZETA",
+      "duplicate_of": "",
+      "invoice_id": "INV-ZE-001",
+      "receipt_supported_qty_base": "1000"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-ZETA",
+      "duplicate_of": "",
+      "invoice_id": "INV-ZE-002",
+      "receipt_supported_qty_base": "100"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-ZETA",
+      "duplicate_of": "",
+      "invoice_id": "INV-ZE-003",
+      "receipt_supported_qty_base": "3000"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-ZETA",
+      "duplicate_of": "",
+      "invoice_id": "INV-ZE-004",
+      "receipt_supported_qty_base": "0"
+    },
+    {
+      "applied_credit_inr": "0.00",
+      "canonical_supplier_id": "S-ZETA",
+      "duplicate_of": "INV-ZE-001",
+      "invoice_id": "INV-ZE-005",
+      "receipt_supported_qty_base": "0"
+    }
+  ],
+  "policy": "accepted receipts allocated by invoice date; dated contract cap; document-date FX; credit capped at supported gross",
+  "schema_version": "1.0"
+}

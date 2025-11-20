@@ -1,0 +1,116 @@
+{
+    "id": "44153332-0beb-4d2c-9b5e-bd4db3b9c183",
+    "task_name": "terminal-bench-manufacturing-tasks/bom-consistency-audit",
+    "trial_name": "bom-consistency-audit__kT8wfQZ",
+    "trial_uri": "file:///<repo>/jobs/finalcheck-bom-consistency-audit-nop/bom-consistency-audit__kT8wfQZ",
+    "task_id": {
+        "path": "tasks\\bom-consistency-audit"
+    },
+    "source": null,
+    "task_checksum": "d388783de355dcf6a97b5072a9662c19944ae84b9e87efb677bdd43dbc0c5723",
+    "config": {
+        "task": {
+            "path": "tasks\\bom-consistency-audit",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "bom-consistency-audit__kT8wfQZ",
+        "trials_dir": "jobs\\finalcheck-bom-consistency-audit-nop",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "nop",
+            "import_path": null,
+            "model_name": null,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "12dc1c0b-491a-49c9-ab55-108a9503d11e",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "nop",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-10-19T17:03:19.870996Z",
+    "finished_at": "2026-10-19T17:03:41.236393Z",
+    "environment_setup": {
+        "started_at": "2026-10-19T17:03:19.982080Z",
+        "finished_at": "2026-10-19T17:03:23.942279Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-19T17:03:23.942329Z",
+        "finished_at": "2026-10-19T17:03:23.942390Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-19T17:03:23.942468Z",
+        "finished_at": "2026-10-19T17:03:23.943579Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-19T17:03:30.476598Z",
+        "finished_at": "2026-10-19T17:03:41.236369Z"
+    },
+    "step_results": null
+}

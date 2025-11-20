@@ -1,0 +1,4 @@
+reservation_id,warehouse,lot_id,reserved_qty,uom,status
+RES-100,WH-NORTH,LOT-BRG-01,15,EA,ACTIVE
+RES-300,WH-EAST,LOT-STEEL-01,60,KG,ACTIVE
+RES-301,WH-SOUTH,LOT-SENSOR-01,50,EA,ACTIVE

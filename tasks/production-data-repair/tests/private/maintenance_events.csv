@@ -1,0 +1,3 @@
+maintenance_id,utc_ts,machine_id,state,stale_event_id,replacement_event_id,note
+MNT-01,2025-09-02T09:04:30Z,PACK-2,INTERLOCK_RESET,PLC-201,PLC-200,PLC RUNNING signal after completed counter is stale
+MNT-02,2025-09-04T09:04:30Z,PACK-1,INTERLOCK_RESET,PLC-401,PLC-400,PLC RUNNING signal after completed counter is stale

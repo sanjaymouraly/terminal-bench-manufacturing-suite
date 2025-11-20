@@ -1,0 +1,3 @@
+evidence_id,inspection_id,correct_batch_id,basis
+LINK-01,QMS-100,BATCH-100,sealed sample barcode and timestamp
+LINK-02,QMS-600,BATCH-600,carton barcode and line clearance log

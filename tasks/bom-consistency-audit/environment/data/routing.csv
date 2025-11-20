@@ -1,0 +1,8 @@
+assembly_id,revision,operation,workcenter
+A-PUMP,A,10,MACH-1
+A-PUMP,B,10,MACH-2
+A-HOUSING,A,10,CAST-1
+A-GEAR,A,10,GEAR-1
+A-GEAR,B,10,GEAR-2
+A-BRACKET,A,10,PRESS-3
+A-DRIVE,A,10,ASSY-1

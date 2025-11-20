@@ -1,0 +1,46 @@
+{
+  "reward": 1.0,
+  "checks": [
+    {
+      "name": "declared_artifacts_exist",
+      "passed": true
+    },
+    {
+      "name": "ledger_shape",
+      "passed": true
+    },
+    {
+      "name": "ledger_replay_matches",
+      "passed": true
+    },
+    {
+      "name": "ledger_sorted",
+      "passed": true
+    },
+    {
+      "name": "ledger_idempotent",
+      "passed": true
+    },
+    {
+      "name": "balances_match_replay",
+      "passed": true
+    },
+    {
+      "name": "available_identity",
+      "passed": true
+    },
+    {
+      "name": "nonnegative_inventory",
+      "passed": true
+    },
+    {
+      "name": "transfer_reconciliation_matches",
+      "passed": true
+    },
+    {
+      "name": "audit_evidence",
+      "passed": true
+    }
+  ],
+  "diagnostics": []
+}

@@ -1,0 +1,8 @@
+{
+  "generator": "scripts/generate_fixtures.py",
+  "generator_version": "2026.10.19.1",
+  "profile": "eval",
+  "provenance": "Synthetic deterministic manufacturing scenario; no confidential or proprietary records.",
+  "scenario_date": "2025-09-01",
+  "seed": 48177
+}

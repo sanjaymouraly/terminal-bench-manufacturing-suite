@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks\\bom-consistency-audit"
+    },
+    "trial_name": "bom-consistency-audit__PFhBWKT",
+    "trials_dir": "jobs\\finalcheck-bom-consistency-audit-oracle",
+    "job_id": "663e3daa-326f-42dd-a8b2-1992903dd0ed"
+}

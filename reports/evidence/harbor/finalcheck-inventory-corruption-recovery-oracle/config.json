@@ -1,0 +1,8 @@
+{
+    "job_name": "finalcheck-inventory-corruption-recovery-oracle",
+    "tasks": [
+        {
+            "path": "tasks\\inventory-corruption-recovery"
+        }
+    ]
+}

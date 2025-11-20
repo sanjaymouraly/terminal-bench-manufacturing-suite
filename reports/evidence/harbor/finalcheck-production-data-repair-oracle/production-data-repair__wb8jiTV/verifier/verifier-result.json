@@ -1,0 +1,46 @@
+{
+  "reward": 1.0,
+  "checks": [
+    {
+      "name": "declared_artifacts_exist",
+      "passed": true
+    },
+    {
+      "name": "history_shape",
+      "passed": true
+    },
+    {
+      "name": "history_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "history_sorted",
+      "passed": true
+    },
+    {
+      "name": "genealogy_matches",
+      "passed": true
+    },
+    {
+      "name": "production_accounting_matches",
+      "passed": true
+    },
+    {
+      "name": "quality_dispositions_match",
+      "passed": true
+    },
+    {
+      "name": "output_scrap_conservation",
+      "passed": true
+    },
+    {
+      "name": "failed_batch_hold",
+      "passed": true
+    },
+    {
+      "name": "repair_audit_evidence",
+      "passed": true
+    }
+  ],
+  "diagnostics": []
+}

@@ -1,0 +1,42 @@
+{
+  "reward": 1.0,
+  "checks": [
+    {
+      "name": "declared_artifacts_exist",
+      "passed": true
+    },
+    {
+      "name": "approved_bom_shape",
+      "passed": true
+    },
+    {
+      "name": "approved_revision_timeline",
+      "passed": true
+    },
+    {
+      "name": "approved_bom_slices",
+      "passed": true
+    },
+    {
+      "name": "production_requirements_match",
+      "passed": true
+    },
+    {
+      "name": "blocked_orders_once",
+      "passed": true
+    },
+    {
+      "name": "repair_log_complete",
+      "passed": true
+    },
+    {
+      "name": "validation_report_shape",
+      "passed": true
+    },
+    {
+      "name": "validation_report_evidence",
+      "passed": true
+    }
+  ],
+  "diagnostics": []
+}

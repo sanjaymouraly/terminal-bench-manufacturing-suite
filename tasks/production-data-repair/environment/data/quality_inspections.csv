@@ -1,0 +1,7 @@
+inspection_id,source,local_ts,recorded_batch_id,result,disposition,reason
+QMS-100,QMS,2025-09-01T10:20:00,BATCH-200,FAIL,HOLD,viscosity outside limit
+QMS-200,QMS,2025-09-02T09:25:00,BATCH-200,PASS,RELEASE,pack integrity confirmed
+QMS-300,QMS,2025-09-03T10:20:00,BATCH-300,PASS,RELEASE,hardness in range
+QMS-400,QMS,2025-09-04T10:20:00,BATCH-400,FAIL,HOLD,seal torque low
+QMS-500,QMS,2025-09-05T10:20:00,BATCH-500,PASS,RELEASE,viscosity in range
+QMS-600,QMS,2025-09-08T10:20:00,BATCH-400,PASS,RELEASE,carton seal verified

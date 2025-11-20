@@ -1,0 +1,58 @@
+{
+  "reward": 1.0,
+  "checks": [
+    {
+      "name": "declared_artifacts_exist",
+      "passed": true
+    },
+    {
+      "name": "invoice_decision_coverage",
+      "passed": true
+    },
+    {
+      "name": "payables_sorted",
+      "passed": true
+    },
+    {
+      "name": "payable_values_match_policy",
+      "passed": true
+    },
+    {
+      "name": "status_vocabulary",
+      "passed": true
+    },
+    {
+      "name": "monetary_balance",
+      "passed": true
+    },
+    {
+      "name": "dispute_coverage",
+      "passed": true
+    },
+    {
+      "name": "dispute_values_match_policy",
+      "passed": true
+    },
+    {
+      "name": "disputes_sorted",
+      "passed": true
+    },
+    {
+      "name": "reconciliation_totals",
+      "passed": true
+    },
+    {
+      "name": "audit_shape",
+      "passed": true
+    },
+    {
+      "name": "audit_decision_evidence",
+      "passed": true
+    },
+    {
+      "name": "payable_ids_consistent",
+      "passed": true
+    }
+  ],
+  "diagnostics": []
+}

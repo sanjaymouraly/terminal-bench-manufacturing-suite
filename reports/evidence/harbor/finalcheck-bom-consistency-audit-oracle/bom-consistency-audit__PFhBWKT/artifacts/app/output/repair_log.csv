@@ -1,0 +1,7 @@
+repair_ref,assembly_id,revision,line_no,repair_type,before_value,after_value,evidence
+ECN-101,A-PUMP,A,,TRUNCATE_REVISION_EFFECTIVITY,2025-06-30,2025-06-14,B supersedes A on release
+ECN-102,A-PUMP,B,20,SUBSTITUTE_COMPONENT,C-SEAL-OLD,C-SEAL-NEW,substitutions.csv approved effectivity
+ECN-103,A-HOUSING,A,20,CORRECT_QUANTITY,4,2,"C-GASKET quantity is 2, not 4"
+ECN-201,A-GEAR,A,,TRUNCATE_REVISION_EFFECTIVITY,2025-06-30,2025-06-19,B supersedes A on gear release
+ECN-202,A-GEAR,B,10,SUBSTITUTE_COMPONENT,C-GEAR-OLD,C-GEAR-NEW,substitutions.csv approved effectivity
+ECN-203,A-BRACKET,A,20,CORRECT_QUANTITY,4,6,"C-BOLT quantity is 6, not 4"

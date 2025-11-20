@@ -1,0 +1,13 @@
+{
+    "job_name": "finalcheck-inventory-corruption-recovery-nop",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks\\inventory-corruption-recovery"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "job_name": "finalcheck-supplier-reconciliation-nop",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks\\supplier-reconciliation"
+        }
+    ]
+}

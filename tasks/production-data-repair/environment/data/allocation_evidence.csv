@@ -1,0 +1,3 @@
+evidence_id,event_id,correct_work_order_id,basis
+ALLOC-01,MES-002,WO-P-100,MIX-1 route and batch traveller
+ALLOC-02,MES-302,WO-P-300,MIX-2 route and batch traveller

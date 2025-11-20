@@ -1,0 +1,13 @@
+{
+    "job_name": "finalcheck-production-data-repair-nop",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks\\production-data-repair"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "tasks\\supplier-reconciliation"
+    },
+    "trial_name": "supplier-reconciliation__wtmWAgU",
+    "trials_dir": "jobs\\finalcheck-supplier-reconciliation-nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "17166798-3d38-4d68-829f-fdb95c376f43"
+}

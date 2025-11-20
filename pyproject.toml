@@ -1,0 +1,71 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "terminal-bench-manufacturing-tasks"
+version = "0.1.1"
+description = "Offline-first manufacturing reconciliation challenges and Harbor-compatible task packages."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Sanjay Mouraly", email = "sanjaymouraly@users.noreply.github.com" }]
+keywords = ["benchmark", "harbor", "terminal-bench", "manufacturing", "reconciliation"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=9.0,<10",
+  "hypothesis>=6.0,<7",
+  "ruff>=0.15,<1",
+  "mypy>=1.15,<2",
+  "pillow>=11,<14",
+]
+
+[project.scripts]
+mfgbench = "manufacturing_bench.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/manufacturing_bench"]
+
+[tool.mypy]
+files = ["src/manufacturing_bench", "scripts"]
+python_version = "3.12"
+strict = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+minversion = "9.0"
+testpaths = ["tests"]
+addopts = "-ra --strict-config --strict-markers"
+markers = [
+  "integration: local end-to-end task execution",
+  "docker: requires a Docker daemon",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+# Fixture rows intentionally remain one-line dictionaries so the synthetic source
+# records are easy to audit against emitted CSV. Formatting is still checked otherwise.
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[project.urls]
+Homepage = "https://github.com/sanjaymouraly/terminal-bench-manufacturing-suite"
+Repository = "https://github.com/sanjaymouraly/terminal-bench-manufacturing-suite"
+Issues = "https://github.com/sanjaymouraly/terminal-bench-manufacturing-suite/issues"
+

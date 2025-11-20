@@ -1,0 +1,113 @@
+{
+  "blocked_orders": [
+    "MO-VALVE"
+  ],
+  "cycle_findings": [
+    {
+      "assembly_id": "A-CYCLE",
+      "cycle_path": [
+        "A-CYCLE",
+        "A-CYCLE"
+      ],
+      "revision": "D",
+      "status": "DRAFT_NOT_SELECTABLE"
+    },
+    {
+      "assembly_id": "A-LOOP1",
+      "cycle_path": [
+        "A-LOOP1",
+        "A-LOOP2",
+        "A-LOOP1"
+      ],
+      "revision": "D",
+      "status": "DRAFT_NOT_SELECTABLE"
+    },
+    {
+      "assembly_id": "A-LOOP2",
+      "cycle_path": [
+        "A-LOOP2",
+        "A-LOOP1",
+        "A-LOOP2"
+      ],
+      "revision": "D",
+      "status": "DRAFT_NOT_SELECTABLE"
+    }
+  ],
+  "findings": [
+    {
+      "assembly_id": "A-VALVE",
+      "code": "BLOCKED_ORDER",
+      "production_order_id": "MO-VALVE",
+      "revision": "A"
+    },
+    {
+      "assembly_id": "A-CYCLE",
+      "code": "CYCLE_DETECTED",
+      "revision": "D",
+      "status": "DRAFT_NOT_SELECTABLE"
+    },
+    {
+      "assembly_id": "A-LOOP1",
+      "code": "CYCLE_DETECTED",
+      "revision": "D",
+      "status": "DRAFT_NOT_SELECTABLE"
+    },
+    {
+      "assembly_id": "A-LOOP2",
+      "code": "CYCLE_DETECTED",
+      "revision": "D",
+      "status": "DRAFT_NOT_SELECTABLE"
+    },
+    {
+      "assembly_id": "A-BRACKET",
+      "code": "QUANTITY_CORRECTED",
+      "repair_ref": "ECN-203",
+      "revision": "A"
+    },
+    {
+      "assembly_id": "A-HOUSING",
+      "code": "QUANTITY_CORRECTED",
+      "repair_ref": "ECN-103",
+      "revision": "A"
+    },
+    {
+      "assembly_id": "A-GEAR",
+      "code": "REVISION_INTERVAL_REPAIRED",
+      "repair_ref": "ECN-201",
+      "revision": "A"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "code": "REVISION_INTERVAL_REPAIRED",
+      "repair_ref": "ECN-101",
+      "revision": "A"
+    },
+    {
+      "assembly_id": "A-GEAR",
+      "code": "SUBSTITUTION_APPLIED",
+      "repair_ref": "ECN-202",
+      "revision": "B"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "code": "SUBSTITUTION_APPLIED",
+      "repair_ref": "ECN-102",
+      "revision": "B"
+    }
+  ],
+  "historical_revision_checks": [
+    {
+      "order_date": "2025-06-10",
+      "preserved": true,
+      "production_order_id": "MO-GEAR-OLD",
+      "selected_revision": "A"
+    },
+    {
+      "order_date": "2025-06-10",
+      "preserved": true,
+      "production_order_id": "MO-OLD",
+      "selected_revision": "A"
+    }
+  ],
+  "schema_version": "1.0"
+}

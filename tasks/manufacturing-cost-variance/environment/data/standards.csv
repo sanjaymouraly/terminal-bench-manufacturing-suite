@@ -1,0 +1,6 @@
+standard_id,product_id,effective_from,effective_to,material_id,material_qty_per_good,standard_foreign_price,currency,budget_fx_inr,standard_labor_hours_per_good,standard_labor_rate_inr,standard_machine_hours_per_good,standard_machine_rate_inr,standard_overhead_rate_inr
+STD-AX-JUL,P-AXLE,2025-07-01,2025-07-31,MAT-STEEL,3.0,2.00,USD,83.00,0.40,180.00,0.50,90.00,55.00
+STD-HO-JUL,P-HOUSING,2025-07-01,2025-07-31,MAT-RESIN,4.0,5.00,EUR,89.00,0.30,175.00,0.35,115.00,60.00
+STD-AX-AUG,P-AXLE,2025-08-01,2025-12-31,MAT-STEEL,3.0,2.10,USD,84.00,0.40,185.00,0.50,92.00,58.00
+STD-GR-AUG,P-GEAR,2025-08-01,2025-12-31,MAT-ALLOY,2.5,3.10,USD,84.00,0.45,190.00,0.60,95.00,62.00
+STD-FR-AUG,P-FRAME,2025-08-01,2025-12-31,MAT-PLATE,3.0,6.20,EUR,90.00,0.35,180.00,0.40,110.00,65.00

@@ -1,0 +1,7 @@
+work_order_id,good_qty,scrap_qty,total_accounted_qty,input_qty,input_uom,yield_pct,status
+WO-P-100,90,10,100,120,KG,75,HOLD
+WO-P-200,96,4,100,100,EA,96,RELEASE
+WO-P-300,110,10,120,150,KG,73.333,RELEASE
+WO-P-400,78,2,80,90,EA,86.667,HOLD
+WO-P-500,96,4,100,130,KG,73.846,RELEASE
+WO-P-600,88,2,90,95,EA,92.632,RELEASE

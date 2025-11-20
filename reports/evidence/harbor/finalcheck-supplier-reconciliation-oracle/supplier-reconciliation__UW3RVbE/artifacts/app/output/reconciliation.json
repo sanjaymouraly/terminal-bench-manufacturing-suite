@@ -1,0 +1,22 @@
+{
+  "credits_inr": "18828.40",
+  "currency": "INR",
+  "duplicate_invoice_count": 2,
+  "gross_supported_inr": "1498592.00",
+  "invoice_count": 15,
+  "net_payable_inr": "1479763.60",
+  "payable_invoice_ids": [
+    "INV-AL-001",
+    "INV-AL-002",
+    "INV-BE-001",
+    "INV-DE-001",
+    "INV-EP-001",
+    "INV-EP-002",
+    "INV-EP-003",
+    "INV-GA-001",
+    "INV-ZE-002",
+    "INV-ZE-003"
+  ],
+  "schema_version": "1.0",
+  "unresolved_amount_inr": "195518.39"
+}

@@ -1,0 +1,5 @@
+credit_id,invoice_number,observed_supplier_id,credit_date,amount,currency,reason
+CR-AL-01,AC-1002,ALPHA-C,2025-07-25,100.00,INR,packaging damage
+CR-GA-01,GP-900,GAMMA POLYMERS,2025-07-03,65.00,EUR,rejected resin lot
+CR-EP-01,EP-2001,EPSILON-METALS,2025-08-20,50.00,EUR,weight variance credit
+CR-ZE-01,ZE 3001,ZETA WIRE,2025-08-25,100.00,USD,packaging credit

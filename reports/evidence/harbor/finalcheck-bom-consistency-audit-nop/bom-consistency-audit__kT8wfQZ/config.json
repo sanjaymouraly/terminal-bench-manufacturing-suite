@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "tasks\\bom-consistency-audit"
+    },
+    "trial_name": "bom-consistency-audit__kT8wfQZ",
+    "trials_dir": "jobs\\finalcheck-bom-consistency-audit-nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "12dc1c0b-491a-49c9-ab55-108a9503d11e"
+}

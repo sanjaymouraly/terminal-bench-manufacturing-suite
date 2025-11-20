@@ -1,0 +1,13 @@
+{
+  "reward": 0.0,
+  "checks": [
+    {
+      "name": "declared_artifacts_exist",
+      "passed": false
+    }
+  ],
+  "diagnostics": [
+    "Missing artifacts: payables.csv, disputes.csv, reconciliation.json, audit.json",
+    "Verifier parse/calculation error: missing artifacts"
+  ]
+}

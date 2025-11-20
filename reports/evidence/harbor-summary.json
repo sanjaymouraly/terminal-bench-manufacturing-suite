@@ -1,0 +1,112 @@
+[
+  {
+    "job": "finalcheck-bom-consistency-audit-nop",
+    "task": "bom-consistency-audit",
+    "agent": "nop",
+    "reward": 0.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T17:03:19.870996Z",
+    "finished_at": "2026-10-19T17:03:41.236393Z",
+    "exception": null,
+    "trial": "bom-consistency-audit__kT8wfQZ"
+  },
+  {
+    "job": "finalcheck-bom-consistency-audit-oracle",
+    "task": "bom-consistency-audit",
+    "agent": "oracle",
+    "reward": 1.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T17:02:42.694016Z",
+    "finished_at": "2026-10-19T17:03:08.141964Z",
+    "exception": null,
+    "trial": "bom-consistency-audit__PFhBWKT"
+  },
+  {
+    "job": "finalcheck-inventory-corruption-recovery-nop",
+    "task": "inventory-corruption-recovery",
+    "agent": "nop",
+    "reward": 0.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T17:01:06.782405Z",
+    "finished_at": "2026-10-19T17:01:26.283161Z",
+    "exception": null,
+    "trial": "inventory-corruption-recovery__kKkAV2K"
+  },
+  {
+    "job": "finalcheck-inventory-corruption-recovery-oracle",
+    "task": "inventory-corruption-recovery",
+    "agent": "oracle",
+    "reward": 1.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T17:00:27.647286Z",
+    "finished_at": "2026-10-19T17:00:54.357760Z",
+    "exception": null,
+    "trial": "inventory-corruption-recovery__B4NXk8h"
+  },
+  {
+    "job": "finalcheck-manufacturing-cost-variance-nop",
+    "task": "manufacturing-cost-variance",
+    "agent": "nop",
+    "reward": 0.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T17:02:12.675637Z",
+    "finished_at": "2026-10-19T17:02:31.789226Z",
+    "exception": null,
+    "trial": "manufacturing-cost-variance__b6nbKyE"
+  },
+  {
+    "job": "finalcheck-manufacturing-cost-variance-oracle",
+    "task": "manufacturing-cost-variance",
+    "agent": "oracle",
+    "reward": 1.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T17:01:36.956209Z",
+    "finished_at": "2026-10-19T17:02:01.245576Z",
+    "exception": null,
+    "trial": "manufacturing-cost-variance__BuMMqky"
+  },
+  {
+    "job": "finalcheck-production-data-repair-nop",
+    "task": "production-data-repair",
+    "agent": "nop",
+    "reward": 0.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T17:04:36.261658Z",
+    "finished_at": "2026-10-19T17:04:58.903907Z",
+    "exception": null,
+    "trial": "production-data-repair__gxYXYeX"
+  },
+  {
+    "job": "finalcheck-production-data-repair-oracle",
+    "task": "production-data-repair",
+    "agent": "oracle",
+    "reward": 1.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T17:03:53.783969Z",
+    "finished_at": "2026-10-19T17:04:23.346527Z",
+    "exception": null,
+    "trial": "production-data-repair__wb8jiTV"
+  },
+  {
+    "job": "finalcheck-supplier-reconciliation-nop",
+    "task": "supplier-reconciliation",
+    "agent": "nop",
+    "reward": 0.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T16:59:57.057939Z",
+    "finished_at": "2026-10-19T17:00:16.553590Z",
+    "exception": null,
+    "trial": "supplier-reconciliation__wtmWAgU"
+  },
+  {
+    "job": "finalcheck-supplier-reconciliation-oracle",
+    "task": "supplier-reconciliation",
+    "agent": "oracle",
+    "reward": 1.0,
+    "verifier_environment_mode": "separate",
+    "started_at": "2026-10-19T16:59:12.572784Z",
+    "finished_at": "2026-10-19T16:59:43.824537Z",
+    "exception": null,
+    "trial": "supplier-reconciliation__UW3RVbE"
+  }
+]

@@ -1,0 +1,8 @@
+{"batch_id":"BATCH-200","counter_good":"96","counter_scrap":"4","event_id":"PLC-201","local_ts":"2025-09-02T09:06:00","machine_id":"PACK-2","source":"PLC","state":"RUNNING"}
+{"batch_id":"BATCH-100","counter_good":"90","counter_scrap":"10","event_id":"PLC-100","local_ts":"2025-09-01T10:03:00","machine_id":"MIX-1","source":"PLC","state":"COMPLETE"}
+{"batch_id":"BATCH-200","counter_good":"96","counter_scrap":"4","event_id":"PLC-200","local_ts":"2025-09-02T09:05:00","machine_id":"PACK-2","source":"PLC","state":"COMPLETE"}
+{"batch_id":"BATCH-300","counter_good":"110","counter_scrap":"10","event_id":"PLC-300","local_ts":"2025-09-03T10:03:00","machine_id":"MIX-2","source":"PLC","state":"COMPLETE"}
+{"batch_id":"BATCH-400","counter_good":"78","counter_scrap":"2","event_id":"PLC-400","local_ts":"2025-09-04T09:05:00","machine_id":"PACK-1","source":"PLC","state":"COMPLETE"}
+{"batch_id":"BATCH-400","counter_good":"78","counter_scrap":"2","event_id":"PLC-401","local_ts":"2025-09-04T09:06:00","machine_id":"PACK-1","source":"PLC","state":"RUNNING"}
+{"batch_id":"BATCH-500","counter_good":"96","counter_scrap":"4","event_id":"PLC-500","local_ts":"2025-09-05T10:03:00","machine_id":"MIX-1","source":"PLC","state":"COMPLETE"}
+{"batch_id":"BATCH-600","counter_good":"88","counter_scrap":"2","event_id":"PLC-600","local_ts":"2025-09-08T09:05:00","machine_id":"PACK-2","source":"PLC","state":"COMPLETE"}

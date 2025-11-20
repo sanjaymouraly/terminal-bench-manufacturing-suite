@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "tasks\\inventory-corruption-recovery"
+    },
+    "trial_name": "inventory-corruption-recovery__kKkAV2K",
+    "trials_dir": "jobs\\finalcheck-inventory-corruption-recovery-nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "d836adcb-a62a-4f8d-98e7-a3748c66f5d1"
+}

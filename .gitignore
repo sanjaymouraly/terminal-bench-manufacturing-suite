@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local benchmark state and immutable run artifacts
+.mfgbench/
+runs/
+jobs/
+.hypothesis/
+reports/*.html
+reports/*.json
+reports/*.csv
+!reports/.gitkeep
+
+# Secrets and local provider configuration
+.env
+.env.*
+!/.env.example
+configs/providers.local.toml
+
+# Docker / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local caches and generated files
+node_modules/
+*.db
+*.sqlite3
+dist/
+build/
+coverage/
+htmlcov/
+.next/
+*.log
+CHANGELOG.md

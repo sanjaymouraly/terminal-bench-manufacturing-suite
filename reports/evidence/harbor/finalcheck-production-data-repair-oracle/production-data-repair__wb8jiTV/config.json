@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks\\production-data-repair"
+    },
+    "trial_name": "production-data-repair__wb8jiTV",
+    "trials_dir": "jobs\\finalcheck-production-data-repair-oracle",
+    "job_id": "f1e5a8be-261f-443e-89a5-dc3f6ea2da76"
+}

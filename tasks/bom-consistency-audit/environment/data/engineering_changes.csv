@@ -1,0 +1,7 @@
+ecn_id,assembly_id,action,target_revision,effective_date,approved,evidence
+ECN-101,A-PUMP,SUPERSEDE_REVISION,A,2025-06-15,true,B supersedes A on release
+ECN-102,A-PUMP,APPROVE_SUBSTITUTE,B,2025-06-20,true,seal material replacement
+ECN-103,A-HOUSING,CORRECT_QUANTITY,A,2025-01-01,true,"C-GASKET quantity is 2, not 4"
+ECN-201,A-GEAR,SUPERSEDE_REVISION,A,2025-06-20,true,B supersedes A on gear release
+ECN-202,A-GEAR,APPROVE_SUBSTITUTE,B,2025-06-25,true,gear material replacement
+ECN-203,A-BRACKET,CORRECT_QUANTITY,A,2025-01-01,true,"C-BOLT quantity is 6, not 4"

@@ -1,0 +1,8 @@
+{
+    "job_name": "finalcheck-bom-consistency-audit-oracle",
+    "tasks": [
+        {
+            "path": "tasks\\bom-consistency-audit"
+        }
+    ]
+}

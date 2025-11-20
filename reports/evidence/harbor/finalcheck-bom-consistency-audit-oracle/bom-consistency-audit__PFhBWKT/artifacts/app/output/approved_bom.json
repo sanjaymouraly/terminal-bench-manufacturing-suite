@@ -1,0 +1,334 @@
+{
+  "lines": [
+    {
+      "assembly_id": "A-BRACKET",
+      "base_uom": "EA",
+      "component_id": "C-PLATE",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "line_no": "10",
+      "qty_base": "1",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-PLATE"
+    },
+    {
+      "assembly_id": "A-BRACKET",
+      "base_uom": "EA",
+      "component_id": "C-BOLT",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "line_no": "20",
+      "qty_base": "6",
+      "repair_refs": "ECN-203",
+      "revision": "A",
+      "source_component_id": "C-BOLT"
+    },
+    {
+      "assembly_id": "A-DRIVE",
+      "base_uom": "EA",
+      "component_id": "C-GEAR-ASM",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "line_no": "10",
+      "qty_base": "1",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-GEAR-ASM"
+    },
+    {
+      "assembly_id": "A-DRIVE",
+      "base_uom": "EA",
+      "component_id": "C-BRACKET-ASM",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "line_no": "20",
+      "qty_base": "1",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-BRACKET-ASM"
+    },
+    {
+      "assembly_id": "A-DRIVE",
+      "base_uom": "EA",
+      "component_id": "C-BOLT",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "line_no": "30",
+      "qty_base": "6",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-BOLT"
+    },
+    {
+      "assembly_id": "A-GEAR",
+      "base_uom": "EA",
+      "component_id": "C-GEAR-OLD",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-06-19",
+      "line_no": "10",
+      "qty_base": "1",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-GEAR-OLD"
+    },
+    {
+      "assembly_id": "A-GEAR",
+      "base_uom": "EA",
+      "component_id": "C-BOLT",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-06-19",
+      "line_no": "20",
+      "qty_base": "2",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-BOLT"
+    },
+    {
+      "assembly_id": "A-GEAR",
+      "base_uom": "EA",
+      "component_id": "C-GEAR-OLD",
+      "effective_from": "2025-06-20",
+      "effective_to": "2025-06-24",
+      "line_no": "10",
+      "qty_base": "1",
+      "repair_refs": "",
+      "revision": "B",
+      "source_component_id": "C-GEAR-OLD"
+    },
+    {
+      "assembly_id": "A-GEAR",
+      "base_uom": "EA",
+      "component_id": "C-GEAR-NEW",
+      "effective_from": "2025-06-25",
+      "effective_to": "2025-12-31",
+      "line_no": "10",
+      "qty_base": "1",
+      "repair_refs": "ECN-202",
+      "revision": "B",
+      "source_component_id": "C-GEAR-OLD"
+    },
+    {
+      "assembly_id": "A-GEAR",
+      "base_uom": "EA",
+      "component_id": "C-BOLT",
+      "effective_from": "2025-06-20",
+      "effective_to": "2025-12-31",
+      "line_no": "20",
+      "qty_base": "2",
+      "repair_refs": "",
+      "revision": "B",
+      "source_component_id": "C-BOLT"
+    },
+    {
+      "assembly_id": "A-HOUSING",
+      "base_uom": "EA",
+      "component_id": "C-CAST",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "line_no": "10",
+      "qty_base": "1",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-CAST"
+    },
+    {
+      "assembly_id": "A-HOUSING",
+      "base_uom": "EA",
+      "component_id": "C-GASKET",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "line_no": "20",
+      "qty_base": "2",
+      "repair_refs": "ECN-103",
+      "revision": "A",
+      "source_component_id": "C-GASKET"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "base_uom": "EA",
+      "component_id": "C-HOUSING",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-06-14",
+      "line_no": "10",
+      "qty_base": "1",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-HOUSING"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "base_uom": "EA",
+      "component_id": "C-SEAL-OLD",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-06-14",
+      "line_no": "20",
+      "qty_base": "2",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-SEAL-OLD"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "base_uom": "EA",
+      "component_id": "C-HOUSING",
+      "effective_from": "2025-06-15",
+      "effective_to": "2025-12-31",
+      "line_no": "10",
+      "qty_base": "1",
+      "repair_refs": "",
+      "revision": "B",
+      "source_component_id": "C-HOUSING"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "base_uom": "EA",
+      "component_id": "C-SEAL-OLD",
+      "effective_from": "2025-06-15",
+      "effective_to": "2025-06-19",
+      "line_no": "20",
+      "qty_base": "2",
+      "repair_refs": "",
+      "revision": "B",
+      "source_component_id": "C-SEAL-OLD"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "base_uom": "EA",
+      "component_id": "C-SEAL-NEW",
+      "effective_from": "2025-06-20",
+      "effective_to": "2025-12-31",
+      "line_no": "20",
+      "qty_base": "2",
+      "repair_refs": "ECN-102",
+      "revision": "B",
+      "source_component_id": "C-SEAL-OLD"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "base_uom": "EA",
+      "component_id": "C-BOLT",
+      "effective_from": "2025-06-15",
+      "effective_to": "2025-12-31",
+      "line_no": "30",
+      "qty_base": "25",
+      "repair_refs": "",
+      "revision": "B",
+      "source_component_id": "C-BOLT"
+    },
+    {
+      "assembly_id": "A-VALVE",
+      "base_uom": "EA",
+      "component_id": "C-BLOCKED",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "line_no": "10",
+      "qty_base": "1",
+      "repair_refs": "",
+      "revision": "A",
+      "source_component_id": "C-BLOCKED"
+    }
+  ],
+  "revisions": [
+    {
+      "assembly_id": "A-BRACKET",
+      "configuration": "STD",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "repair_refs": "",
+      "revision": "A",
+      "status": "APPROVED"
+    },
+    {
+      "assembly_id": "A-CYCLE",
+      "configuration": "LAB",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "repair_refs": "",
+      "revision": "D",
+      "status": "DRAFT"
+    },
+    {
+      "assembly_id": "A-DRIVE",
+      "configuration": "STD",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "repair_refs": "",
+      "revision": "A",
+      "status": "APPROVED"
+    },
+    {
+      "assembly_id": "A-GEAR",
+      "configuration": "STD",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-06-19",
+      "repair_refs": "ECN-201",
+      "revision": "A",
+      "status": "APPROVED"
+    },
+    {
+      "assembly_id": "A-GEAR",
+      "configuration": "STD",
+      "effective_from": "2025-06-20",
+      "effective_to": "2025-12-31",
+      "repair_refs": "",
+      "revision": "B",
+      "status": "APPROVED"
+    },
+    {
+      "assembly_id": "A-HOUSING",
+      "configuration": "STD",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "repair_refs": "",
+      "revision": "A",
+      "status": "APPROVED"
+    },
+    {
+      "assembly_id": "A-LOOP1",
+      "configuration": "LAB",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "repair_refs": "",
+      "revision": "D",
+      "status": "DRAFT"
+    },
+    {
+      "assembly_id": "A-LOOP2",
+      "configuration": "LAB",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "repair_refs": "",
+      "revision": "D",
+      "status": "DRAFT"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "configuration": "STD",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-06-14",
+      "repair_refs": "ECN-101",
+      "revision": "A",
+      "status": "APPROVED"
+    },
+    {
+      "assembly_id": "A-PUMP",
+      "configuration": "STD",
+      "effective_from": "2025-06-15",
+      "effective_to": "2025-12-31",
+      "repair_refs": "",
+      "revision": "B",
+      "status": "APPROVED"
+    },
+    {
+      "assembly_id": "A-VALVE",
+      "configuration": "STD",
+      "effective_from": "2025-01-01",
+      "effective_to": "2025-12-31",
+      "repair_refs": "",
+      "revision": "A",
+      "status": "APPROVED"
+    }
+  ],
+  "schema_version": "1.0"
+}

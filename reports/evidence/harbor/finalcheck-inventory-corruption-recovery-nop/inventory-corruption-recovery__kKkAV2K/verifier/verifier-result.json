@@ -1,0 +1,13 @@
+{
+  "reward": 0.0,
+  "checks": [
+    {
+      "name": "declared_artifacts_exist",
+      "passed": false
+    }
+  ],
+  "diagnostics": [
+    "Missing artifacts: recovered_ledger.jsonl, inventory_balances.csv, transfer_reconciliation.csv, recovery_audit.json",
+    "Verifier parse/calculation error: missing artifacts"
+  ]
+}

@@ -1,0 +1,5 @@
+source,offset_seconds,authority_rank
+MES,300,2
+PLC,0,1
+ERP,0,3
+QMS,-120,1

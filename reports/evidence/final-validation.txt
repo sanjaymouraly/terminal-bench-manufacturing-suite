@@ -1,0 +1,31 @@
+﻿Terminal-Bench Manufacturing Suite - final validation
+Generated: 2026-10-19T22:20:29.2534936+05:30
+
+Toolchain
+  {"docker_available":true,"docker_detail":"Docker server 29.8.2","harbor_version":"0.24.0","suite_version":"0.1.1"}
+
+Static checks
+  ruff check src tests scripts tasks            PASS
+  ruff format --check src tests scripts tasks    PASS (60 files)
+  mypy (strict)                                 PASS (17 source files)
+  python scripts/typecheck_tasks.py             PASS (15 task programs)
+  python -m compileall -q src tests scripts tasks PASS
+  mfgbench tasks validate                       PASS (5 human-authorship warnings)
+
+Tests
+  pytest -q                                     21 passed, 1 skipped
+  mfgbench smoke --concurrency 3                15/15 baseline contracts pass
+                                                 Oracle 1.0, NOP 0.0, mutation 0.0
+
+Lock and build
+  uv lock --check                               PASS
+  uv build                                      PASS (0.1.1 sdist + wheel)
+
+Native Harbor (separate verifier)
+  5 Oracle trials                               1.0
+  5 NOP trials                                  0.0
+  Trial metadata                                reports/evidence/harbor-summary.json
+
+Local provider
+  Ollama GET /v1/models                          HTTP 200
+  Models                                         gemma3:1b, qwen3.5:4b

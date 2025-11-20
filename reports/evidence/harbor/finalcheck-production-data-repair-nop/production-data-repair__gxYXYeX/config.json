@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "tasks\\production-data-repair"
+    },
+    "trial_name": "production-data-repair__gxYXYeX",
+    "trials_dir": "jobs\\finalcheck-production-data-repair-nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "9b27808f-bc94-4325-9429-fdb62bec63f9"
+}

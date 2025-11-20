@@ -1,0 +1,13 @@
+{
+    "job_name": "finalcheck-bom-consistency-audit-nop",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks\\bom-consistency-audit"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks\\inventory-corruption-recovery"
+    },
+    "trial_name": "inventory-corruption-recovery__B4NXk8h",
+    "trials_dir": "jobs\\finalcheck-inventory-corruption-recovery-oracle",
+    "job_id": "94b8a1c5-6d34-4f68-9078-108641327b57"
+}

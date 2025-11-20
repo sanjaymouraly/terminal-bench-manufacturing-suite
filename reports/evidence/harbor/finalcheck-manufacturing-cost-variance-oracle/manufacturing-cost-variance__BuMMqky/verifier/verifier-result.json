@@ -1,0 +1,38 @@
+{
+  "reward": 1.0,
+  "checks": [
+    {
+      "name": "declared_artifacts_exist",
+      "passed": true
+    },
+    {
+      "name": "order_coverage",
+      "passed": true
+    },
+    {
+      "name": "order_variance_values",
+      "passed": true
+    },
+    {
+      "name": "factor_summary_values",
+      "passed": true
+    },
+    {
+      "name": "variance_report_values",
+      "passed": true
+    },
+    {
+      "name": "variance_reconciliation",
+      "passed": true
+    },
+    {
+      "name": "investigation_findings",
+      "passed": true
+    },
+    {
+      "name": "factor_total_consistency",
+      "passed": true
+    }
+  ],
+  "diagnostics": []
+}

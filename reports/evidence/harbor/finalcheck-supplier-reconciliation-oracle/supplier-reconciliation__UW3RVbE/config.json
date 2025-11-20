@@ -1,0 +1,8 @@
+{
+    "task": {
+        "path": "tasks\\supplier-reconciliation"
+    },
+    "trial_name": "supplier-reconciliation__UW3RVbE",
+    "trials_dir": "jobs\\finalcheck-supplier-reconciliation-oracle",
+    "job_id": "c3c8749b-ccf1-4f04-bc61-f3aa7fff4246"
+}

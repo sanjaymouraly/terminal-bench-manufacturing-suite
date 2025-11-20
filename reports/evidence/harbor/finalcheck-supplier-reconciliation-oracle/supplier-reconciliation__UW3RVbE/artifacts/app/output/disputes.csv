@@ -1,0 +1,14 @@
+invoice_id,line_no,reason_code,disputed_qty_base,disputed_amount_inr,detail
+INV-AL-001,1,PRICE_ABOVE_CONTRACT,60,141.60,Billed price exceeds effective contract price.
+INV-AL-002,1,QUANTITY_NOT_ACCEPTED,5,295.00,"Billed quantity exceeds accepted, previously unallocated receipt quantity."
+INV-AL-003,,DUPLICATE_INVOICE,0,0.00,Duplicate of INV-AL-002 after supplier and invoice normalization.
+INV-BE-001,1,PRICE_ABOVE_CONTRACT,190,1883.28,Billed price exceeds effective contract price.
+INV-BE-001,1,QUANTITY_NOT_ACCEPTED,10,1883.28,"Billed quantity exceeds accepted, previously unallocated receipt quantity."
+INV-DE-001,1,PRICE_ABOVE_CONTRACT,150,750.48,Billed price exceeds effective contract price.
+INV-EP-002,1,PRICE_ABOVE_CONTRACT,600,12814.80,Billed price exceeds effective contract price.
+INV-EP-004,1,QUANTITY_NOT_ACCEPTED,600,153607.68,"Billed quantity exceeds accepted, previously unallocated receipt quantity."
+INV-GA-001,1,PRICE_ABOVE_CONTRACT,500,9450.00,Billed price exceeds effective contract price.
+INV-GA-001,1,QUANTITY_NOT_ACCEPTED,10,6331.50,"Billed quantity exceeds accepted, previously unallocated receipt quantity."
+INV-ZE-001,1,QUANTITY_NOT_ACCEPTED,500,4172.95,"Billed quantity exceeds accepted, previously unallocated receipt quantity."
+INV-ZE-004,1,QUANTITY_NOT_ACCEPTED,500,4187.82,"Billed quantity exceeds accepted, previously unallocated receipt quantity."
+INV-ZE-005,,DUPLICATE_INVOICE,0,0.00,Duplicate of INV-ZE-001 after supplier and invoice normalization.

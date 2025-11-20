@@ -1,0 +1,43 @@
+# Copy to configs/providers.local.toml and reference secrets through environment variables.
+# The suite does not send a request until `mfgbench providers test --network` or
+# `mfgbench harbor-run --execute` is used.
+# Pricing is intentionally omitted. Before a paid run, add verified dated
+# input_usd_per_million/output_usd_per_million values and ISO pricing_as_of to the
+# ignored local copy.
+
+[providers.openai]
+kind = "openai"
+base_url = "https://api.openai.com/v1"
+api_key_env = "OPENAI_API_KEY"
+default_model = ""
+paid = true
+
+[providers.anthropic]
+kind = "anthropic"
+base_url = "https://api.anthropic.com"
+api_key_env = "ANTHROPIC_API_KEY"
+default_model = ""
+paid = true
+
+[providers.openrouter]
+kind = "openai-compatible"
+base_url = "https://openrouter.ai/api/v1"
+api_key_env = "OPENROUTER_API_KEY"
+default_model = ""
+paid = true
+
+[providers.custom]
+kind = "openai-compatible"
+base_url_env = "CUSTOM_OPENAI_BASE_URL"
+api_key_env = "CUSTOM_OPENAI_API_KEY"
+default_model = ""
+paid = true
+
+[providers.ollama]
+kind = "openai-compatible"
+# Environment value overrides this safe local default.
+base_url = "http://127.0.0.1:11434/v1"
+base_url_env = "OLLAMA_BASE_URL"
+api_key_env = ""
+default_model = ""
+paid = false

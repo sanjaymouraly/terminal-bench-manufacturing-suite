@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "tasks\\manufacturing-cost-variance"
+    },
+    "trial_name": "manufacturing-cost-variance__b6nbKyE",
+    "trials_dir": "jobs\\finalcheck-manufacturing-cost-variance-nop",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "a2661beb-8b09-4de9-9170-b16d6badcc31"
+}

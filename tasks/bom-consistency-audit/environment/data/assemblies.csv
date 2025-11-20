@@ -1,0 +1,10 @@
+assembly_id,description,configuration,base_uom
+A-PUMP,Industrial pump,STD,EA
+A-HOUSING,Pump housing subassembly,STD,EA
+A-VALVE,Valve repair kit,STD,EA
+A-CYCLE,Invalid engineering sandbox assembly,LAB,EA
+A-GEAR,Gear set,STD,EA
+A-BRACKET,Mounting bracket,STD,EA
+A-DRIVE,Drive assembly,STD,EA
+A-LOOP1,Loop sandbox one,LAB,EA
+A-LOOP2,Loop sandbox two,LAB,EA

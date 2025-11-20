@@ -1,0 +1,8 @@
+{
+    "job_name": "finalcheck-manufacturing-cost-variance-oracle",
+    "tasks": [
+        {
+            "path": "tasks\\manufacturing-cost-variance"
+        }
+    ]
+}
