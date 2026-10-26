@@ -1,5 +1,7 @@
 # Terminal-Bench-Style Manufacturing Challenge Suite
 
+[![CI](https://github.com/sanjaymouraly/terminal-bench-manufacturing-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/sanjaymouraly/terminal-bench-manufacturing-suite/actions/workflows/ci.yml)
+
 A Terminal-Bench-style suite of manufacturing reconciliation and data-repair challenges.
 
 ## Features
